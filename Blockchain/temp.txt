@@ -1,0 +1,28 @@
+
+for(int i=0;i<mydata.size();i++){
+        for(int j=0;j<mydata[i].size();j++){
+            mydata[i][j]=decrypt(mydata[i][j], 20779, 79523);
+        }
+    }
+for(int i=0;i<mydata.size();i++){
+        for(int j=0;j<mydata[i].size();j++)
+            mydata[i][j]=decrypt(int(mydata[i][j]), public_key[idx].first, public_key[idx].second);
+    }
+mining block 1
+Block Mined :
+index: 1
+previous hash:
+hash: 0000007f71543a36b9fc6c16c0ea0fe48945e562a472ccf9df6c73c63b1349d8
+time: 1620373066
+encrypted data: 507833766273898595411765743729 6439314882316606072 509901488211681352412610 655791488219802 266402664059903
+decrypted data: 123QWE Modi votes for AAP
+====================================================================================================
+mining block 2
+Block Mined :
+index: 2
+previous hash: 0000007f71543a36b9fc6c16c0ea0fe48945e562a472ccf9df6c73c63b1349d8
+hash: 000000693571684023109cf3920e47a6ddc4126fa4d8996dfdb03b0b06db3858
+time: 1620373239
+encrypted data: 602842302111598146802644944 602009869632782712279182238503024343229 21262217714412198699045 340032177127122 145683999749678       
+decrypted data: 234WER Kejriwal votes for BSP 
+====================================================================================================
