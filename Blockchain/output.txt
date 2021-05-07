@@ -1,13 +1,3 @@
-
-for(int i=0;i<mydata.size();i++){
-        for(int j=0;j<mydata[i].size();j++){
-            mydata[i][j]=decrypt(mydata[i][j], 20779, 79523);
-        }
-    }
-for(int i=0;i<mydata.size();i++){
-        for(int j=0;j<mydata[i].size();j++)
-            mydata[i][j]=decrypt(int(mydata[i][j]), public_key[idx].first, public_key[idx].second);
-    }
 mining block 1
 Block Mined :
 index: 1
